@@ -11,6 +11,6 @@
 
 ## 样式截图
 
-![image-20210529221130301](C:\Users\86176\AppData\Roaming\Typora\typora-user-images\image-20210529221130301.png)
+![image-20210529221130301](ReadmeImg\image-20210529221130301.png)
 
-![image-20210529221158365](C:\Users\86176\AppData\Roaming\Typora\typora-user-images\image-20210529221158365.png)
+![image-20210529221158365](ReadmeImg\image-20210529221158365.png)
