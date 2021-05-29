@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+    <script type="text/javascript" src="./public/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="./public/js/bootstrap.min.js"></script>
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <div class="card">
+        <!-- 链接导航 -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+        </nav>
+
+        <!-- 页面主体 -->
+        <div class="card-body">
+            <form class="form-inline">
+                <div class="form-group mb-2">
+                    <label>number</label>
+                </div>
+                <div class="form-group mx-sm-3 mb-2">
+                    <label for="numberInput" class="sr-only">Password</label>
+                    <input type="text" class="form-control" id="numberInput" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-primary mb-2">Submit</button>
+            </form>
+
+
+            <!-- 表格 -->
+            <table class="table table-bordered">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- 分页 -->
+            <nav aria-label="Page navigation example">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label class="text-justify font-weight-bold text-right col"
+                                style="line-height: 35px; font-size: 15px;">每页条数：</label>
+                            <select class="form-control col">
+                                <option>10条</option>
+                                <option>30条</option>
+                                <option>50条</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <ul class="pagination justify-content-end col-md-10">
+                        <li class="page-item">
+                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+</body>
+
+</html>
